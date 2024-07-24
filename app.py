@@ -3,7 +3,8 @@ import streamlit as st
 
 import numpy as np
 import pandas as pd
-import joblib
+import requirements
+#import joblib
 
 model = joblib.load('xgbpipe.joblib')
 st.title('Did they survive? :ship:')
