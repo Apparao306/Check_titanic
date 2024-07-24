@@ -1,4 +1,5 @@
 import streamlit as st
+pip install -r requirements.txt
 from utils import PrepProcesor, columns 
 
 import numpy as np
